@@ -1,11 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>8.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
-  <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-  </ItemGroup>
+		<!-- NuGet metadata -->
+		<PackageId>LS.CommonExtensions</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Laoseng</Authors>
+		<Company>LS.Tools</Company>
+		<Description>A collection of handy C# extension methods for common operations on strings, dates, enums, and collections. Designed to simplify daily .NET development.</Description>
+		<PackageTags>extensions;csharp;common;string;date;enum;collection</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<Copyright>
+			Copyright (c) 2025 Laoseng.
+		</Copyright>
+		<RepositoryUrl>https://github.com/LaoSeng99/LS.CommonExtensions</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+	</ItemGroup>
 
 </Project>
