@@ -35,14 +35,14 @@ dateTime.ToFormattedString(DateTimeExtensions.DateTimeFormatType.Iso8601);
 | **DateTime24H** | `now.ToFormattedString(DateTimeExtensions.DateTimeFormatType.DateTime24H)` | `2025-04-15 18:30` |
 | **DateTime12H** | `now.ToFormattedString(DateTimeExtensions.DateTimeFormatType.DateTime12H)` | `2025-04-15 06:30 PM` |
 | **TimeOnly** | `now.ToFormattedString(DateTimeExtensions.DateTimeFormatType.TimeOnly)` | `18:30` |
-```
 
 ✅ **Tip:**  
-- `ToFormattedString` gracefully handles `nullable DateTime` as well.  
+- `ToFormattedString` gracefully handles `nullable DateTime` as well.
+
 ```csharp
 DateTime? nullableTime = now;
 string formatted = nullableTime.ToFormattedString(DateTimeExtensions.DateTimeFormatType.DateTime24H);
-
+```
 ### 4️ **CollectionExtensions**
 - **AddRangeSafe:** Adds multiple items while avoiding duplicates.
 - **RemoveRangeSafe:** Removes a range of items safely, ignoring non-existing ones.
