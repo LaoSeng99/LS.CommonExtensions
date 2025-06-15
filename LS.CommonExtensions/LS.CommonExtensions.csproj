@@ -8,7 +8,7 @@
 
 		<!-- NuGet metadata -->
 		<PackageId>LS.CommonExtensions</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Laoseng</Authors>
 		<Company>LS.Tools</Company>
 		<Description>A collection of handy C# extension methods for common operations on strings, dates, enums, and collections. Designed to simplify daily .NET development.</Description>
